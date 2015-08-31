@@ -1,0 +1,6 @@
+**/test.*
+node_modules
+coverage
+playground
+bin/exportSqlStructures.sh
+bin/developmentMac.sh
