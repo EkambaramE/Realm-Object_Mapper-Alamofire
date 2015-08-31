@@ -1,8 +1,8 @@
-# code snippets of the hyphe blod
+# code snippets of the hyphe blog
 
 This repository contains examples and snippets from our blog at blog.hyphe.me.
 
-Feel free to use the examples as you like.
+Enjoy ! :=)
 
 # License
 
