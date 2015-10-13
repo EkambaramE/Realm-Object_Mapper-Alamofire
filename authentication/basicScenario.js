@@ -6,7 +6,7 @@
 ///////////////////
 const PORT = 1337; // i know, its old...
 const SECRET = 'server secret';
-const TOKENTIME = 120; // in minutes
+const TOKENTIME = 120 * 60; // in seconds
 
 /////////////
 // modules //
@@ -105,7 +105,7 @@ function generateToken(req, res, next) {
   req.token = jwt.sign({
     id: req.user.id,
   }, SECRET, {
-    expiresInMinutes: TOKENTIME
+    expiresIn: TOKENTIME
   });
   next();
 }
