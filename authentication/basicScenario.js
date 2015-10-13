@@ -1,4 +1,4 @@
-// start with node authentication/basicScenario.js
+// start with node authentication/refreshTokenScenario.js
 'use strict';
 
 ///////////////////
