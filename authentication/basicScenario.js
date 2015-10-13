@@ -1,4 +1,4 @@
-// start with node --harmony authentication/basicScenario.js
+// start with node authentication/basicScenario.js
 'use strict';
 
 ///////////////////
