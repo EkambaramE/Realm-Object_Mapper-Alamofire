@@ -35,8 +35,8 @@ class FetchData {
                     let items = response.result.value
                     if let items = items {
                         let realm = try! Realm()
-                        for item in items {
-                            try! realm.write {
+                        try! realm.write {
+                            for item in items {
                                 realm.add(item, update: true)
                             }
                         }
